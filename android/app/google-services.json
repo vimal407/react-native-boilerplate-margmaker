@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "314974166764",
+    "project_id": "notification-f7081",
+    "storage_bucket": "notification-f7081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314974166764:android:3b27b778c56d1179cd4fc9",
+        "android_client_info": {
+          "package_name": "com.margmaker.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314974166764-doctpdbc4mhkp1ghvbj0as3lr2rdmipg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.margmaker.android",
+            "certificate_hash": "50015dfb3e96c05a40904bd93f0e516626dfae14"
+          }
+        },
+        {
+          "client_id": "314974166764-ucm2bt8c1q77h4og7sjvmhm0jro1tmnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjCFzuS4LBl-fNGwiiNOIptjCMuRj139U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314974166764-ucm2bt8c1q77h4og7sjvmhm0jro1tmnb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "314974166764-2h1kfab24mkmdqb1iok0q7q0ohi5lmtv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.margmaker.android"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
