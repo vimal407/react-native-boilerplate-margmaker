@@ -7,6 +7,8 @@ import HomeScreen from '../modules/home/container'
 import ProfileScreen from '../modules/home/component/Profile'
 import MenuScreen from '../modules/home/component/Menu'
 import SearchScreen from '../modules/home/component/Search'
+import MapScreen from '../modules/home/component/MapScreen';
+
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import Ionicons from 'react-native-vector-icons/Ionicons'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
@@ -122,6 +124,16 @@ function BottomTabNavigator({ navigation }) {
         component={HomeTabs}
         options={{ headerShown: false }}
         screenOptions={{ headerShown: false }}
+      />
+       <Stack.Screen
+        name="Map"
+        component={MapScreen}
+        options={{
+          headerStyle: {
+            backgroundColor: Color.Primary,
+          },
+        }}
+        screenOptions={{headerShown: false}}
       />
     </Stack.Navigator>
   )

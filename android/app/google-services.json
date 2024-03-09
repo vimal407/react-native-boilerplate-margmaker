@@ -7,18 +7,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:314974166764:android:3b27b778c56d1179cd4fc9",
+        "mobilesdk_app_id": "1:314974166764:android:3b27b778c56179cd4fc9",
         "android_client_info": {
           "package_name": "com.margmaker.android"
         }
       },
       "oauth_client": [
         {
-          "client_id": "314974166764-doctpdbc4mhkp1ghvbj0as3lr2rdmipg.apps.googleusercontent.com",
+          "client_id": "314974166764-doctpdbc4mhkp1vbj0as3lr2rdmipg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.margmaker.android",
-            "certificate_hash": "50015dfb3e96c05a40904bd93f0e516626dfae14"
+            "certificate_hash": "50015dfb3e96ca40904bd93f0e516626dfae14"
           }
         },
         {
@@ -28,18 +28,18 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCjCFzuS4LBl-fNGwiiNOIptjCMuRj139U"
+          "current_key": "AIzaSySSSCFzuS4LBl-fNGwiiNOIptCMuRj139U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "314974166764-ucm2bt8c1q77h4og7sjvmhm0jro1tmnb.apps.googleusercontent.com",
+              "client_id": "314974166764-ucbt8c1q77h4og7sjvmhm0jro1tmnb.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "314974166764-2h1kfab24mkmdqb1iok0q7q0ohi5lmtv.apps.googleusercontent.com",
+              "client_id": "314974166764-2h1kfab24mkmdqbok0q7q0ohi5lmtv.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.margmaker.android"

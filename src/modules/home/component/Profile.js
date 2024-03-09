@@ -30,6 +30,10 @@ const ProfileScreen = () => {
 
   useEffect(() => {}, []);
 
+  const onMaps = () => {
+    navigation.navigate('Map');
+  };
+
   const onFaceID = () => {
     const rnBiometrics = new ReactNativeBiometrics();
     rnBiometrics.isSensorAvailable().then(resultObject => {
@@ -131,6 +135,30 @@ const ProfileScreen = () => {
                 </View>
                 <View>
                   <Text style={styles.tabLbl}>{Languages.Enable_Facelock}</Text>
+                </View>
+              </View>
+              <View>
+                <Feather
+                  name={'chevron-right'}
+                  size={24}
+                  color={Color.Primary}
+                />
+              </View>
+            </View>
+          </RippleEffect>
+          <RippleEffect style={styles.boxWrap} onPress={() => onMaps()}>
+            <View style={Styles.flexBTW}>
+              <View style={Styles.flexINI}>
+                <View style={styles.boxPrimary}>
+                  <FontAwesome
+                    name="map-marker"
+                    size={24}
+                    color={Color.Primary}
+                    style={{position: 'relative', top: 6}}
+                  />
+                </View>
+                <View>
+                  <Text style={styles.tabLbl}>{Languages.GoogleMaps}</Text>
                 </View>
               </View>
               <View>

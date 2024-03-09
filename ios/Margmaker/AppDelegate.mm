@@ -1,7 +1,7 @@
 #import "AppDelegate.h"
 
 #import <React/RCTBundleURLProvider.h>
-
+#import <GoogleMaps/GoogleMaps.h>
 #import "SplashScreen.h"
 #import <Firebase/Firebase.h>
 #import "RNNotifications.h"
@@ -10,6 +10,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  //_MAP_API_KEY_HERE_
+  [GMSServices provideAPIKey:@"AIzaSyDVoFm7dGsPJQEVmgymK4c9C5NRAnXNvGY"];
   if ([FIRApp defaultApp] == nil) {
       [FIRApp configure];
   }

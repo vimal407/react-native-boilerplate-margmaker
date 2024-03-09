@@ -22,7 +22,8 @@
     "vector-icon",
     "boilerplate",
     "permission",
-    "app-intro"
+    "app-intro",
+    "google-maps"
   ],
   "scripts": {
     "android": "react-native run-android",
@@ -49,6 +50,7 @@
     "react-native-biometrics": "^3.0.1",
     "react-native-gesture-handler": "^2.15.0",
     "react-native-localization": "^2.3.2",
+    "react-native-maps": "^1.10.3",
     "react-native-modal": "^13.0.1",
     "react-native-safe-area-context": "^4.9.0",
     "react-native-screens": "^3.29.0",

@@ -19,7 +19,8 @@ export default new LocalizedStrings({
     Enable_Facelock: 'Enable Facelock',
     Video_Call: 'Video Call',
     Change_Language: 'Change Language',
-    Log_out: 'Log out'
+    Log_out: 'Log out',
+    GoogleMaps: 'Map Location'
   },
   Arabic: {
     Login: 'تسجيل الدخول',
@@ -40,6 +41,7 @@ export default new LocalizedStrings({
     Enable_Facelock: 'تمكين قفل الوجه',
     Video_Call: 'مكالمة فيديو',
     Change_Language: 'تغيير اللغة',
-    Log_out: 'تسجيل خروج'
+    Log_out: 'تسجيل خروج',
+    GoogleMaps: 'Map Location'
   }
 })

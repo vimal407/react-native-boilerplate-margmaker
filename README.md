@@ -133,6 +133,8 @@ The app will reload if you make edits.<br /> You will also see any lint errors i
 
 ### Permission
 
+### Google Map
+
 ## License
 
 This project is released under the [GNU License](LICENSE).
